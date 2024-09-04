@@ -1,10 +1,22 @@
 {
-  "name": "Weather_bot",
+  "name": "weather_bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.19.2",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.63.0",
+    "nodemon": "^3.1.4"
+  }
 }
